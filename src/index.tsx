@@ -1,1 +1,9 @@
-document.write('Lets build a nice React app with Parcel and TypeScript!')
+import * as React from 'react'
+import * as ReactDOM from 'react-dom'
+
+import { AppContainer } from './containers/App'
+
+ReactDOM.render(
+  <AppContainer />,
+  document.getElementById('root')
+)

@@ -1,0 +1,9 @@
+.content {
+    padding: 40px;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}

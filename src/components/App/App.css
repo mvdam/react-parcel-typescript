@@ -1,0 +1,15 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../../../static/fonts/robotoRegular.woff) format("woff"), url(../../../static/fonts/robotoRegular.ttf) format("opentype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+}
