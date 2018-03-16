@@ -1,0 +1,29 @@
+{
+  "name": "react-parcel-typescript",
+  "version": "1.0.0",
+  "description": "Exeriment to setup React &amp; Parcel &amp; TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mvdam/react-parcel-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mvdam/react-parcel-typescript/issues"
+  },
+  "homepage": "https://github.com/mvdam/react-parcel-typescript#readme",
+  "dependencies": {
+    "react": "16.2.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "1.6.2",
+    "typescript": "2.7.2"
+  }
+}
